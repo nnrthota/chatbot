@@ -1,0 +1,20 @@
+{
+  "name": "application-name",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "Apache",
+  "engines": {
+    "node": "~0.10.0 || ~4.2.0"
+  },
+  "dependencies": {
+    "botbuilder": "^3.8.2",
+    "global-tunnel": "^1.2.0",
+    "mysql2": "^1.4.2",
+    "request": "^2.79.0",
+    "request-promise": "^4.2.1",
+    "restify": "^4.3.0"
+  }
+}
